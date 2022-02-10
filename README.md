@@ -1,5 +1,7 @@
 ## CI/CD Kata
 
+[![CI](https://github.com/2KAbhishek/ticker-api/actions/workflows/gradle.yml/badge.svg)](https://github.com/2KAbhishek/ticker-api/actions/workflows/gradle.yml)
+
 ### Application Details
 
 This is a simple Micronaut application that makes requests to a REST API and returns the response.
