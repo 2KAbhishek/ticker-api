@@ -17,7 +17,7 @@ import org.junit.jupiter.api.Test;
 class StockIntegrationTest {
 
   @Inject
-  @Client("/tickers/xyz")
+  @Client("/tickers/")
   private HttpClient httpClient;
 
   @Test
