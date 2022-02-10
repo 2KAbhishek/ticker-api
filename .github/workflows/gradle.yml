@@ -1,7 +1,7 @@
 name: CI
 on: [push]
 jobs:
-  build-without-cache:
+  test-without-cache:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -11,4 +11,4 @@ jobs:
           java-version: 11
           distribution: 'adopt'
       - name: Test with Gradle
-        run: echo Incubyte
+        run: ./gradlew test
