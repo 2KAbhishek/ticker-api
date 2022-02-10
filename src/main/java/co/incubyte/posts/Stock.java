@@ -12,7 +12,7 @@ public class Stock {
 
   public Stock(String ticker, String name, double price) {
     this.ticker = ticker;
-    this.name = name;
+    this.name = "Random something";
     this.price = price;
   }
 
