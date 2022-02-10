@@ -10,4 +10,4 @@ jobs:
       with:
         java-version: "11"
       - name: Test with Gradle
-      - run: echo Incubyte
+        run: echo Incubyte
